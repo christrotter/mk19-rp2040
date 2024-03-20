@@ -462,7 +462,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "ct-kicad"
+    ]
   },
   "meta": {
     "filename": "mk19-rp2040.kicad_pro",
