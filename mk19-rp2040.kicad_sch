@@ -27310,7 +27310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x08_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal"
 			(at 158.75 271.78 0)
 			(effects
 				(font
@@ -27462,7 +27462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x08_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal"
 			(at 100.33 269.24 0)
 			(effects
 				(font
@@ -27683,7 +27683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "drawings:GT-USB-7014C"
+		(property "Footprint" "ct-kicad:USB-C-SMD_12P-P0.50-H-F_TYPE-C-31-M-14"
 			(at 373.38 367.03 0)
 			(effects
 				(font
@@ -28625,7 +28625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 229.87 429.26 0)
 			(effects
 				(font
@@ -31234,7 +31234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 134.62 411.48 0)
 			(effects
 				(font
@@ -32183,7 +32183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x08_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal"
 			(at 46.99 269.24 0)
 			(effects
 				(font
@@ -32889,7 +32889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "drawings:GT-USB-7014C"
+		(property "Footprint" "ct-kicad:USB-C-SMD_12P-P0.50-H-F_TYPE-C-31-M-14"
 			(at 374.65 237.49 0)
 			(effects
 				(font
@@ -33352,7 +33352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal"
 			(at 44.45 148.59 0)
 			(effects
 				(font
@@ -33874,7 +33874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal"
 			(at 71.12 148.59 0)
 			(effects
 				(font
@@ -35594,7 +35594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 209.55 403.86 0)
 			(effects
 				(font
@@ -37466,7 +37466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal"
 			(at 71.12 123.19 0)
 			(effects
 				(font
@@ -37702,7 +37702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x08_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-AM_1x08_P2.50mm_Vertical"
 			(at 166.37 370.84 0)
 			(effects
 				(font
@@ -38488,7 +38488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "drawings:GT-USB-7014C"
+		(property "Footprint" "ct-kicad:USB-C-SMD_12P-P0.50-H-F_TYPE-C-31-M-14"
 			(at 373.38 302.26 0)
 			(effects
 				(font
@@ -39274,7 +39274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 118.11 331.47 0)
 			(effects
 				(font
@@ -40703,7 +40703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal"
 			(at 44.45 123.19 0)
 			(effects
 				(font
@@ -41490,7 +41490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 248.92 403.86 0)
 			(effects
 				(font
@@ -41890,7 +41890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x08_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal"
 			(at 203.2 271.78 0)
 			(effects
 				(font
