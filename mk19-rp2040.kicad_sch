@@ -10993,7 +10993,7 @@
 		(uuid "442a8d45-232e-4e71-8e93-e0dc5331f360")
 	)
 	(junction
-		(at 485.14 293.37)
+		(at 505.46 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44964ba5-51a3-41b0-b61d-d346b9cc9ed1")
@@ -11263,7 +11263,7 @@
 		(uuid "880d195d-c6f6-420e-8d02-1696edd56fea")
 	)
 	(junction
-		(at 535.94 293.37)
+		(at 556.26 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88f17c84-c118-4056-8ce8-48fd9ba6284f")
@@ -11752,7 +11752,7 @@
 	)
 	(wire
 		(pts
-			(xy 557.53 327.66) (xy 533.4 327.66)
+			(xy 577.85 323.85) (xy 553.72 323.85)
 		)
 		(stroke
 			(width 0)
@@ -12302,7 +12302,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 293.37) (xy 525.78 293.37)
+			(xy 556.26 289.56) (xy 546.1 289.56)
 		)
 		(stroke
 			(width 0)
@@ -12932,7 +12932,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 332.74) (xy 533.4 332.74)
+			(xy 548.64 328.93) (xy 553.72 328.93)
 		)
 		(stroke
 			(width 0)
@@ -13142,7 +13142,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 293.37) (xy 505.46 293.37)
+			(xy 535.94 289.56) (xy 525.78 289.56)
 		)
 		(stroke
 			(width 0)
@@ -13582,7 +13582,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 331.47) (xy 528.32 332.74)
+			(xy 548.64 327.66) (xy 548.64 328.93)
 		)
 		(stroke
 			(width 0)
@@ -14552,7 +14552,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 327.66) (xy 485.14 327.66)
+			(xy 543.56 323.85) (xy 505.46 323.85)
 		)
 		(stroke
 			(width 0)
@@ -14572,7 +14572,7 @@
 	)
 	(wire
 		(pts
-			(xy 557.53 293.37) (xy 557.53 327.66)
+			(xy 577.85 289.56) (xy 577.85 323.85)
 		)
 		(stroke
 			(width 0)
@@ -14662,7 +14662,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 293.37) (xy 535.94 293.37)
+			(xy 561.34 289.56) (xy 556.26 289.56)
 		)
 		(stroke
 			(width 0)
@@ -15362,7 +15362,7 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 303.53) (xy 546.1 300.99)
+			(xy 566.42 299.72) (xy 566.42 297.18)
 		)
 		(stroke
 			(width 0)
@@ -16002,7 +16002,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 293.37) (xy 495.3 293.37)
+			(xy 505.46 289.56) (xy 515.62 289.56)
 		)
 		(stroke
 			(width 0)
@@ -17812,7 +17812,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 327.66) (xy 485.14 293.37)
+			(xy 505.46 323.85) (xy 505.46 289.56)
 		)
 		(stroke
 			(width 0)
@@ -18662,7 +18662,7 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 293.37) (xy 485.14 293.37)
+			(xy 488.95 289.56) (xy 505.46 289.56)
 		)
 		(stroke
 			(width 0)
@@ -18762,7 +18762,7 @@
 	)
 	(wire
 		(pts
-			(xy 557.53 293.37) (xy 551.18 293.37)
+			(xy 577.85 289.56) (xy 571.5 289.56)
 		)
 		(stroke
 			(width 0)
@@ -18923,6 +18923,18 @@
 		(uuid 3af575d1-5228-4cb3-8826-35650d77d8fe)
 	)
 	(rectangle
+		(start 320.04 207.01)
+		(end 469.9 407.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 50e8b1cb-9f02-4309-860c-e2340e8ac0e5)
+	)
+	(rectangle
 		(start 316.23 17.78)
 		(end 617.22 198.12)
 		(stroke
@@ -18947,6 +18959,18 @@
 		(uuid 5fa5b10f-b3f0-4335-ace3-3592bb5ba653)
 	)
 	(rectangle
+		(start 485.14 340.36)
+		(end 599.44 430.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 68648fde-e40c-4ab8-99ab-fa5b02cbec51)
+	)
+	(rectangle
 		(start 33.02 304.8)
 		(end 81.28 346.71)
 		(stroke
@@ -18957,6 +18981,18 @@
 			(type none)
 		)
 		(uuid ad3f0bd1-0904-4c86-9e6e-a35a193d5cba)
+	)
+	(rectangle
+		(start 485.14 269.24)
+		(end 599.44 332.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c75755a1-8453-4578-9d8b-85f617d8b291)
 	)
 	(text_box "74HC589 notes\n- When we spi_start(COL_CS), COL_CS goes LOW - OutputEnable is activated\n- COL_CS_MOS is HIGH, so Latch and SLoad are activated\n- Data flows out into MISO\n- spi_stop(COL_CS), COL_CS goes HIGH, OutputEnable is deactivated"
 		(exclude_from_sim no)
@@ -19420,7 +19456,7 @@
 	)
 	(text_box "Bypass the serial power filtering.\n1->2 = bypass, send 5v directly onto USB cable\n3->2 = filter 5v power onto USB cable"
 		(exclude_from_sim no)
-		(at 491.49 316.23 0)
+		(at 511.81 312.42 0)
 		(size 40.64 8.89)
 		(stroke
 			(width 0)
@@ -19660,7 +19696,7 @@
 	)
 	(text_box "Directly copied from tzarc."
 		(exclude_from_sim no)
-		(at 486.41 284.48 0)
+		(at 506.73 280.67 0)
 		(size 25.4 3.81)
 		(stroke
 			(width 0)
@@ -20090,7 +20126,7 @@
 	)
 	(text "Serial_VBUS"
 		(exclude_from_sim no)
-		(at 497.332 280.162 0)
+		(at 517.652 276.352 0)
 		(effects
 			(font
 				(face "Futura")
@@ -20934,7 +20970,7 @@
 		(uuid "c066eb93-5626-4103-940e-86a68808205a")
 	)
 	(label "Serial_VBUS"
-		(at 468.63 293.37 0)
+		(at 488.95 289.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25746,7 +25782,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 546.1 303.53 0)
+		(at 566.42 299.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25755,7 +25791,7 @@
 		(fields_autoplaced yes)
 		(uuid "068c52e0-dc0c-4fb8-9e89-834ef5b9098b")
 		(property "Reference" "#PWR03"
-			(at 546.1 309.88 0)
+			(at 566.42 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25764,7 +25800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 546.1 307.34 0)
+			(at 566.42 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25772,7 +25808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 546.1 303.53 0)
+			(at 566.42 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25781,7 +25817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 546.1 303.53 0)
+			(at 566.42 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25790,7 +25826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 546.1 303.53 0)
+			(at 566.42 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26290,7 +26326,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 535.94 283.21 180)
+		(at 556.26 279.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26299,7 +26335,7 @@
 		(fields_autoplaced yes)
 		(uuid "07ca8c99-36ab-47bb-bf6e-3497134a4ce5")
 		(property "Reference" "#PWR0107"
-			(at 535.94 276.86 0)
+			(at 556.26 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26308,7 +26344,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 535.94 278.13 0)
+			(at 556.26 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26316,7 +26352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 535.94 283.21 0)
+			(at 556.26 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26325,7 +26361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 535.94 283.21 0)
+			(at 556.26 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26334,7 +26370,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 535.94 283.21 0)
+			(at 556.26 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29350,7 +29386,7 @@
 	)
 	(symbol
 		(lib_id "kicad-symbols:MPZ2012S101AT000")
-		(at 500.38 293.37 180)
+		(at 520.7 289.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29358,7 +29394,7 @@
 		(dnp no)
 		(uuid "32f2f21a-87a0-4024-ab0c-0101291a81ea")
 		(property "Reference" "L1"
-			(at 500.38 299.72 0)
+			(at 520.7 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29366,7 +29402,7 @@
 			)
 		)
 		(property "Value" "MPZ2012S101AT000"
-			(at 500.38 297.18 0)
+			(at 520.7 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29374,7 +29410,7 @@
 			)
 		)
 		(property "Footprint" "ct-kicad:L0805"
-			(at 500.38 283.21 0)
+			(at 520.7 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29384,7 +29420,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/344132.html"
-			(at 502.666 293.497 0)
+			(at 522.986 289.687 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29394,7 +29430,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 500.38 293.37 0)
+			(at 520.7 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29403,7 +29439,7 @@
 			)
 		)
 		(property "LCSC" "C15957"
-			(at 500.38 293.37 0)
+			(at 520.7 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34232,7 +34268,7 @@
 	)
 	(symbol
 		(lib_id "ct-kicad:AO3401A")
-		(at 546.1 295.91 90)
+		(at 566.42 292.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34240,7 +34276,7 @@
 		(dnp no)
 		(uuid "76e797ce-8376-481b-98cc-27940b681a34")
 		(property "Reference" "MOSFET1"
-			(at 539.75 309.88 0)
+			(at 560.07 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34249,7 +34285,7 @@
 			)
 		)
 		(property "Value" "AO3401A_C347476"
-			(at 542.29 317.5 0)
+			(at 562.61 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34258,7 +34294,7 @@
 			)
 		)
 		(property "Footprint" "ct-kicad:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 556.26 295.91 0)
+			(at 576.58 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34268,7 +34304,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/236142.html"
-			(at 545.973 298.196 0)
+			(at 566.293 294.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34278,7 +34314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 546.1 295.91 0)
+			(at 566.42 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34287,7 +34323,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 546.1 295.91 0)
+			(at 566.42 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39347,7 +39383,7 @@
 	)
 	(symbol
 		(lib_id "kicad-symbols:SMF5_0CA_C364279")
-		(at 535.94 288.29 270)
+		(at 556.26 284.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39355,7 +39391,7 @@
 		(dnp no)
 		(uuid "c882cccb-4056-44f9-9bac-612a39bde1d6")
 		(property "Reference" "D4"
-			(at 523.24 284.48 90)
+			(at 543.56 280.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39364,7 +39400,7 @@
 			)
 		)
 		(property "Value" "SMF5_0CA_C364279"
-			(at 515.62 287.02 90)
+			(at 535.94 283.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39373,7 +39409,7 @@
 			)
 		)
 		(property "Footprint" "ct-kicad:SOD-123FL_L2.8-W1.8-LS3.7-BI"
-			(at 525.78 288.29 0)
+			(at 546.1 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39383,7 +39419,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/125068.html"
-			(at 536.067 286.004 0)
+			(at 556.387 282.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39393,7 +39429,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 535.94 288.29 0)
+			(at 556.26 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39402,7 +39438,7 @@
 			)
 		)
 		(property "LCSC" "C364279"
-			(at 535.94 288.29 0)
+			(at 556.26 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40996,7 +41032,7 @@
 	)
 	(symbol
 		(lib_id "kicad-symbols:MF-NSMF075-2")
-		(at 520.7 293.37 180)
+		(at 541.02 289.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41005,7 +41041,7 @@
 		(fields_autoplaced yes)
 		(uuid "db61462d-c144-430e-91c9-903eefb6d1a9")
 		(property "Reference" "F3"
-			(at 520.7 299.72 0)
+			(at 541.02 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41013,7 +41049,7 @@
 			)
 		)
 		(property "Value" "MF-NSMF075-2"
-			(at 520.7 297.18 0)
+			(at 541.02 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41021,7 +41057,7 @@
 			)
 		)
 		(property "Footprint" "ct-kicad:F1206"
-			(at 520.7 283.21 0)
+			(at 541.02 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41031,7 +41067,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200518/C553934_4CFF0660EAE88BF7A646763F248900C5.pdf"
-			(at 522.986 293.497 0)
+			(at 543.306 289.687 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41041,7 +41077,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 520.7 293.37 0)
+			(at 541.02 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41050,7 +41086,7 @@
 			)
 		)
 		(property "LCSC" "C89653"
-			(at 520.7 293.37 0)
+			(at 541.02 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42425,7 +42461,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 533.4 332.74 270)
+		(at 553.72 328.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42434,7 +42470,7 @@
 		(fields_autoplaced yes)
 		(uuid "f09eb5df-65b4-4935-a1fd-475181b9a963")
 		(property "Reference" "#PWR034"
-			(at 529.59 332.74 0)
+			(at 549.91 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42443,7 +42479,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 537.21 332.7399 90)
+			(at 557.53 328.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42452,7 +42488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 533.4 332.74 0)
+			(at 553.72 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42461,7 +42497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 533.4 332.74 0)
+			(at 553.72 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42470,7 +42506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 533.4 332.74 0)
+			(at 553.72 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42570,7 +42606,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 528.32 327.66 0)
+		(at 548.64 323.85 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -42579,7 +42615,7 @@
 		(fields_autoplaced yes)
 		(uuid "f428699e-830a-4ff2-b6dd-bde5cd791410")
 		(property "Reference" "JP2"
-			(at 528.32 321.31 0)
+			(at 548.64 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42587,7 +42623,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 528.32 323.85 0)
+			(at 548.64 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42595,7 +42631,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 528.32 327.66 0)
+			(at 548.64 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42604,7 +42640,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 528.32 327.66 0)
+			(at 548.64 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42613,7 +42649,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 528.32 327.66 0)
+			(at 548.64 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
