@@ -4826,6 +4826,8 @@
 			)
 		)
 		(path "/b55e3aa6-f0f4-4d3d-9873-d3dfcf313a95")
+		(sheetname "Root")
+		(sheetfile "mk19-rp2040.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.571984 5.08001)
@@ -35787,7 +35789,7 @@
 	(footprint "ct-kicad:USB-C-SMD_12P-P0.50-H-F_TYPE-C-31-M-14"
 		(layer "F.Cu")
 		(uuid "ed5bd784-031d-43ea-a020-6f2fd0d7d6e9")
-		(at 142.91 53.25 180)
+		(at 172.91 53.25 180)
 		(descr "USB-C-SMD_12P-P0.50-H-F_TYPE-C-31-M-14 footprint")
 		(tags "USB-C-SMD_12P-P0.50-H-F_TYPE-C-31-M-14 footprint C223907")
 		(property "Reference" "J13"
@@ -35862,6 +35864,8 @@
 			)
 		)
 		(path "/1829fcf5-9e31-4325-b065-c65041a0d726")
+		(sheetname "Root")
+		(sheetfile "mk19-rp2040.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.571984 5.08001)
@@ -38053,6 +38057,8 @@
 			)
 		)
 		(path "/6125bb34-31fe-49ed-b2ab-61dab24d450a")
+		(sheetname "Root")
+		(sheetfile "mk19-rp2040.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.571984 5.08001)
