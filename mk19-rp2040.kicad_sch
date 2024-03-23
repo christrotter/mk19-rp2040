@@ -42653,7 +42653,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 440.69 179.07 90)
+		(at 440.69 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42661,7 +42661,7 @@
 		(dnp no)
 		(uuid "f24002f0-84e7-46e9-a36a-cadeb5580387")
 		(property "Reference" "C10"
-			(at 438.15 177.8 0)
+			(at 441.96 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42670,7 +42670,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 443.23 177.8 0)
+			(at 441.96 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42679,7 +42679,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 444.5 178.1048 0)
+			(at 441.6552 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
