@@ -22499,7 +22499,7 @@
 		)
 	)
 	(global_label "Serial-RX"
-		(shape input)
+		(shape bidirectional)
 		(at 504.19 140.97 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22510,7 +22510,7 @@
 		)
 		(uuid "57dc1c61-1feb-40f1-b436-86e2d6bac6ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 516.7304 140.97 0)
+			(at 517.8417 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23422,7 +23422,7 @@
 			)
 		)
 	)
-	(global_label "Split_Comms_RX"
+	(global_label "Serial-RX"
 		(shape bidirectional)
 		(at 439.42 302.26 0)
 		(fields_autoplaced yes)
@@ -23434,7 +23434,7 @@
 		)
 		(uuid "92d445df-2342-4140-bdce-2057841a3e8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 459.1191 302.26 0)
+			(at 453.0717 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23577,7 +23577,7 @@
 		)
 	)
 	(global_label "Serial-TX"
-		(shape output)
+		(shape bidirectional)
 		(at 504.19 138.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23588,7 +23588,7 @@
 		)
 		(uuid "99d7e46d-e6fb-4e65-90dd-d0070eac15e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 516.428 138.43 0)
+			(at 517.5393 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24060,7 +24060,7 @@
 			)
 		)
 	)
-	(global_label "Split_Comms_TX"
+	(global_label "Serial-TX"
 		(shape bidirectional)
 		(at 439.42 327.66 0)
 		(fields_autoplaced yes)
@@ -24072,7 +24072,7 @@
 		)
 		(uuid "bcc09d78-d4c9-4e8f-8362-21e1fa4e2885")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 458.8167 327.66 0)
+			(at 452.7693 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
