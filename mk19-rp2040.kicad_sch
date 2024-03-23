@@ -19965,26 +19965,6 @@
 		)
 		(uuid "cd674c06-2589-4b8d-9714-34efcc2fc408")
 	)
-	(text_box "todo: Burkfers suggests 5v over serial is incorrect.\nreview how chunky does it."
-		(exclude_from_sim no)
-		(at 582.93 289.56 0)
-		(size 40.64 8.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d299f0aa-8397-48d5-9444-2610e9f902d3")
-	)
 	(text_box "Test pins."
 		(exclude_from_sim no)
 		(at 261.62 335.28 0)
