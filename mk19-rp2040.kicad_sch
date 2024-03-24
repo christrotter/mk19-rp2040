@@ -4330,6 +4330,85 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -4408,231 +4487,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-		)
-		(symbol "Memory_Flash:W25Q128JVS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "W25Q128JVS"
-				(at 7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flash memory SPI QPI DTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "W25Q128JVS_0_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "W25Q128JVS_1_1"
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "DO(IO1)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "DI(IO0)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -8545,6 +8399,253 @@
 				)
 			)
 		)
+		(symbol "ct-kicad:W25Q128JVSIQTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.778 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "W25Q128JVSIQTR"
+				(at 9.398 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/63461.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C97521"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C97521"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "W25Q128JVSIQTR_0_1"
+				(rectangle
+					(start -10.16 6.35)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.89 5.588)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.89 5.588)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "CS#"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "IO3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ct-kicad:awesome-logo"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -10660,6 +10761,12 @@
 		)
 	)
 	(junction
+		(at 243.84 436.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05305d1e-1e06-474b-b19f-9a18bae5aacd")
+	)
+	(junction
 		(at 163.83 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10690,12 +10797,6 @@
 		(uuid "158aa108-3dba-4a62-ad8c-8594a6cedb5a")
 	)
 	(junction
-		(at 262.89 401.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15b10722-b7b9-46ce-8476-827e831bd224")
-	)
-	(junction
 		(at 379.73 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10714,16 +10815,16 @@
 		(uuid "16c2851c-a098-4852-b278-10f27e9d376c")
 	)
 	(junction
+		(at 223.52 401.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "187705c9-924f-4c1a-b746-127e6ae1d764")
+	)
+	(junction
 		(at 410.21 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19277a20-bdfc-47ba-8854-032af4f207f3")
-	)
-	(junction
-		(at 243.84 436.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1de870db-138d-4e8a-ac4f-739083b13736")
 	)
 	(junction
 		(at 190.5 190.5)
@@ -10888,6 +10989,12 @@
 		(uuid "528de4f7-5457-45a8-b669-f55935364b7b")
 	)
 	(junction
+		(at 262.89 401.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "541c53bb-3ec0-45a9-b5be-28fa3f153c2f")
+	)
+	(junction
 		(at 166.37 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10948,12 +11055,6 @@
 		(uuid "62e43f97-7be3-4009-a93a-3f327685e879")
 	)
 	(junction
-		(at 223.52 401.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "630b1e8b-08be-4ffe-9c13-8212151f153d")
-	)
-	(junction
 		(at 73.66 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10976,12 +11077,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65565750-feeb-4b7b-9d45-1922eaf80915")
-	)
-	(junction
-		(at 262.89 411.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "660cde45-5f20-4c85-bfe6-7923537a6f15")
 	)
 	(junction
 		(at 152.4 90.17)
@@ -11108,6 +11203,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86b56b0f-3ac2-42f0-a1fb-6c6eba2507a8")
+	)
+	(junction
+		(at 243.84 426.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "876135fa-4fc9-4849-b14c-e8c09168d4b3")
 	)
 	(junction
 		(at 525.78 67.31)
@@ -11296,12 +11397,6 @@
 		(uuid "b3cc48b5-6864-4c43-8712-794890ce4c54")
 	)
 	(junction
-		(at 243.84 426.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6c1376f-671b-4e6f-9b14-3238f03b408a")
-	)
-	(junction
 		(at 276.86 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11368,6 +11463,12 @@
 		(uuid "d1e758b9-5abc-4ca7-97ff-035dab19a0b6")
 	)
 	(junction
+		(at 262.89 411.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d417ec56-497a-4796-9154-9c3d23cfd366")
+	)
+	(junction
 		(at 95.25 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11396,6 +11497,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de5acb4f-720f-4abc-bc7b-8541cecbe3ef")
+	)
+	(junction
+		(at 223.52 411.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfb21944-70e9-4fbc-af1d-3291781ea4d0")
 	)
 	(junction
 		(at 415.29 327.66)
@@ -11450,12 +11557,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f889f7de-d7b0-4b3f-87c4-802a588a156f")
-	)
-	(junction
-		(at 223.52 411.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9dab927-a4d0-403f-9b31-007223ac84fc")
 	)
 	(junction
 		(at 420.37 128.27)
@@ -11813,7 +11914,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 158.75) (xy 363.22 158.75)
+			(xy 374.65 157.48) (xy 363.22 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12273,7 +12374,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 161.29) (xy 363.22 161.29)
+			(xy 374.65 160.02) (xy 363.22 160.02)
 		)
 		(stroke
 			(width 0)
@@ -12703,6 +12804,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 411.48) (xy 270.51 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e6a7d8-348b-4b5f-ae26-ff44b2222d20")
+	)
+	(wire
+		(pts
 			(xy 421.64 237.49) (xy 416.56 237.49)
 		)
 		(stroke
@@ -12933,7 +13044,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 411.48) (xy 231.14 411.48)
+			(xy 217.17 411.48) (xy 223.52 411.48)
 		)
 		(stroke
 			(width 0)
@@ -12990,6 +13101,16 @@
 			(type default)
 		)
 		(uuid "30cae101-9437-4136-a121-6fe77a84cca3")
+	)
+	(wire
+		(pts
+			(xy 350.52 165.1) (xy 350.52 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3107b7fc-fce5-4d50-aa93-356611fa752f")
 	)
 	(wire
 		(pts
@@ -13423,7 +13544,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 411.48) (xy 270.51 411.48)
+			(xy 256.54 411.48) (xy 262.89 411.48)
 		)
 		(stroke
 			(width 0)
@@ -13473,6 +13594,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 410.21) (xy 262.89 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d9fe4f-8698-4deb-b2ef-8acc196b1e4d")
+	)
+	(wire
+		(pts
 			(xy 561.34 49.53) (xy 561.34 52.07)
 		)
 		(stroke
@@ -13490,16 +13621,6 @@
 			(type default)
 		)
 		(uuid "42985572-a627-4149-b4ba-b370a4c6123c")
-	)
-	(wire
-		(pts
-			(xy 350.52 166.37) (xy 350.52 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42f120d8-726e-4db8-9350-451fed51e7b4")
 	)
 	(wire
 		(pts
@@ -13750,6 +13871,16 @@
 			(type default)
 		)
 		(uuid "4b1222c1-d902-4c4d-9705-2283ba9d43a5")
+	)
+	(wire
+		(pts
+			(xy 243.84 426.72) (xy 243.84 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4dbb8e-b668-4634-b5cc-c4e30c0c7217")
 	)
 	(wire
 		(pts
@@ -14393,13 +14524,23 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 436.88) (xy 251.46 436.88)
+			(xy 237.49 436.88) (xy 243.84 436.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "613867b8-1c6d-4956-bd59-f32ed10adf41")
+	)
+	(wire
+		(pts
+			(xy 243.84 436.88) (xy 251.46 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6164ce84-342d-49b3-b50b-dda7ff83b3a2")
 	)
 	(wire
 		(pts
@@ -15023,13 +15164,13 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 411.48) (xy 262.89 411.48)
+			(xy 243.84 435.61) (xy 243.84 436.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d52f009-3974-4e14-aece-dfd6b63201bf")
+		(uuid "7cf6cd5c-ef4f-4276-aa1b-3a41f8a54a9b")
 	)
 	(wire
 		(pts
@@ -15180,6 +15321,16 @@
 			(type default)
 		)
 		(uuid "82783269-f3cb-4ade-8a60-afffb81c645b")
+	)
+	(wire
+		(pts
+			(xy 223.52 411.48) (xy 231.14 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8286b028-9855-4c99-96a2-6f67f145d367")
 	)
 	(wire
 		(pts
@@ -16983,16 +17134,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 436.88) (xy 243.84 436.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c44e28ad-22fc-47bb-a751-fdcf27e087d7")
-	)
-	(wire
-		(pts
 			(xy 49.53 128.27) (xy 53.34 128.27)
 		)
 		(stroke
@@ -17713,16 +17854,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 411.48) (xy 223.52 411.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db86b130-0d1f-4620-b7ad-a9fa924528bb")
-	)
-	(wire
-		(pts
 			(xy 421.64 262.89) (xy 416.56 262.89)
 		)
 		(stroke
@@ -17750,6 +17881,16 @@
 			(type default)
 		)
 		(uuid "dc6b66ff-b413-41e0-9d54-8e28e3aa3efd")
+	)
+	(wire
+		(pts
+			(xy 262.89 401.32) (xy 262.89 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc97df5e-1a82-4cb2-aab7-7a139c039938")
 	)
 	(wire
 		(pts
@@ -18023,6 +18164,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 410.21) (xy 223.52 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f65368-2a0c-404e-884b-fcb51406f1c5")
+	)
+	(wire
+		(pts
 			(xy 118.11 339.09) (xy 118.11 336.55)
 		)
 		(stroke
@@ -18110,6 +18261,16 @@
 			(type default)
 		)
 		(uuid "eb8caba4-0ca6-4461-a008-bd47937be82d")
+	)
+	(wire
+		(pts
+			(xy 223.52 401.32) (xy 223.52 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdad436-1f29-4016-a1bf-574d4e7a8e1a")
 	)
 	(wire
 		(pts
@@ -18914,6 +19075,18 @@
 		(uuid 3af575d1-5228-4cb3-8826-35650d77d8fe)
 	)
 	(rectangle
+		(start 33.02 391.16)
+		(end 81.28 433.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 40093072-53d1-4f60-83fc-f3b864ef637e)
+	)
+	(rectangle
 		(start 320.04 207.01)
 		(end 469.9 407.67)
 		(stroke
@@ -19045,10 +19218,10 @@
 		)
 		(uuid "0a59ddcb-fba0-4868-988c-65342ae26bba")
 	)
-	(text_box "For RKJXT:\n- ground pin required\n- a/b encoders are pulled up to 5v"
+	(text_box "For RKJXT:\n- ground pin required\n- a/b encoders are pulled up to 3.3v, as that's the max a gpio can take\n- spec calls for 4.7k@5v ...5.1 should be ok?..."
 		(exclude_from_sim no)
 		(at 261.62 287.02 0)
-		(size 35.56 8.89)
+		(size 43.18 12.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -20005,6 +20178,26 @@
 		)
 		(uuid "e4a45296-285e-4f42-a3cb-0b8ffdb57c44")
 	)
+	(text_box "TODO\ncheck this against later versions"
+		(exclude_from_sim no)
+		(at 478.79 298.45 0)
+		(size 40.64 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e56fdc67-1e68-4205-a5bf-7209141eb3fd")
+	)
 	(text_box "Splinktegrated design.\nThese USB ports should hold up better."
 		(exclude_from_sim no)
 		(at 400.05 336.55 0)
@@ -20064,6 +20257,26 @@
 			(justify left top)
 		)
 		(uuid "f9aeee06-e0b6-4fbe-acd6-557f47f9df14")
+	)
+	(text_box "For edge rails, as per JLC."
+		(exclude_from_sim no)
+		(at 38.1 416.56 0)
+		(size 34.29 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f9ea9014-1969-4097-8d7a-c134f8031484")
 	)
 	(text_box "Note there is a 256-led maximum (total of both sides) due to QMK's rgb implementation.\nLarge amount of code work to fix this.  (thus the vanity led controller)"
 		(exclude_from_sim no)
@@ -20624,6 +20837,21 @@
 		)
 		(uuid "96c79946-3f89-451a-80e5-811c13fb02a3")
 	)
+	(text "Fiducials"
+		(exclude_from_sim no)
+		(at 44.45 398.78 0)
+		(effects
+			(font
+				(face "Futura")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0380d64-301a-4f9d-b879-851512bfe3e2")
+	)
 	(text "Falcon1 connector"
 		(exclude_from_sim no)
 		(at 44.45 252.73 0)
@@ -21005,7 +21233,7 @@
 		(uuid "875e3fe7-549a-427f-ab57-eb526f73497e")
 	)
 	(label "QSPI_D2"
-		(at 374.65 158.75 180)
+		(at 374.65 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21071,7 +21299,7 @@
 		(uuid "e50e485d-9765-40ec-aa66-664af237f7a3")
 	)
 	(label "QSPI_D3"
-		(at 374.65 161.29 180)
+		(at 374.65 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25516,7 +25744,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nf"
 			(at 187.96 110.49 0)
 			(effects
 				(font
@@ -25788,7 +26016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nf"
 			(at 459.74 181.61 0)
 			(effects
 				(font
@@ -25797,7 +26025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 459.4352 182.88 0)
 			(effects
 				(font
@@ -26077,7 +26305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0xLib_Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
+		(property "Footprint" "ct-kicad:LQFN-56_L7.0-W7.0-P0.4-EP"
 			(at 458.47 101.6 0)
 			(effects
 				(font
@@ -26547,7 +26775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 398.78 229.108 90)
 			(effects
 				(font
@@ -27022,6 +27250,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 290.83 275.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b2c5ed6-84ef-4187-a8f0-0e6f73fee93e")
+		(property "Reference" "#PWR0108"
+			(at 287.02 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 294.64 275.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 290.83 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59ad4b77-f398-4180-9fd0-e2170eae8cf8")
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 327.66 62.23 90)
 		(unit 1)
@@ -27154,27 +27448,17 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 290.83 284.48 270)
+		(lib_id "Mechanical:Fiducial")
+		(at 58.42 408.94 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "10e7d4fc-32ea-4bed-a55d-884fc04c588f")
-		(property "Reference" "#PWR072"
-			(at 287.02 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 294.64 284.4799 90)
+		(uuid "0fb7de29-b325-4c5c-9d7f-598315300e18")
+		(property "Reference" "FID4"
+			(at 60.96 407.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27182,8 +27466,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 290.83 284.48 0)
+		(property "Value" "Fiducial"
+			(at 60.96 410.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 58.42 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27191,8 +27484,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 290.83 284.48 0)
+		(property "Datasheet" "~"
+			(at 58.42 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27200,22 +27493,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 290.83 284.48 0)
+		(property "Description" "Fiducial Marker"
+			(at 58.42 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "05d33dc2-9aef-4c19-8b33-5fddb501fef9")
 		)
 		(instances
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR072")
+					(reference "FID4")
 					(unit 1)
 				)
 			)
@@ -28126,7 +28416,7 @@
 		(at 264.16 264.16 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -28277,6 +28567,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 243.84 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fe644ac-2f27-435b-a9ff-f38a94220bf6")
+		(property "Reference" "C29"
+			(at 246.761 430.6316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 246.761 432.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ct-kicad:C0805"
+			(at 244.8052 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C440198"
+			(at 243.84 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17bac756-f36e-4c65-800d-6ab4df3d0052")
+		)
+		(pin "2"
+			(uuid "e1db8757-f56f-4139-9902-add880c91c0a")
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 425.45 100.33 90)
 		(unit 1)
@@ -28301,7 +28660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 425.45 102.108 90)
 			(effects
 				(font
@@ -28353,17 +28712,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 350.52 156.21 0)
+		(lib_id "Device:C")
+		(at 223.52 406.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21cdcec7-6c5d-43dc-b239-07bda77e500d")
-		(property "Reference" "U5"
-			(at 352.5394 143.51 0)
+		(uuid "2193d120-e28b-4557-8606-9908bea61efa")
+		(property "Reference" "C2"
+			(at 226.441 405.2316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28371,8 +28729,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVS"
-			(at 352.5394 146.05 0)
+		(property "Value" "10u"
+			(at 226.441 407.543 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28380,8 +28738,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "drawings:W25Q128JVPIQ"
-			(at 350.52 156.21 0)
+		(property "Footprint" "ct-kicad:C0805"
+			(at 224.4852 410.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28389,8 +28747,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 350.52 156.21 0)
+		(property "Datasheet" "~"
+			(at 223.52 406.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28398,8 +28756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C97521"
-			(at 350.52 156.21 0)
+		(property "Description" "C440198"
+			(at 223.52 406.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28408,33 +28766,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a35c7a62-76f6-495d-bb72-17f13e94f1c2")
+			(uuid "148591f5-aed8-4a94-b79a-369366adf5b7")
 		)
 		(pin "2"
-			(uuid "f16c124b-fb18-4f65-9c23-839ed8c84a56")
-		)
-		(pin "3"
-			(uuid "1a754861-7f9c-47a4-9f0d-eb69ed24d308")
-		)
-		(pin "4"
-			(uuid "45b6a8c0-8c28-46f5-9bd8-fefdf2320cfb")
-		)
-		(pin "5"
-			(uuid "234eb7f4-dcdf-46e9-b05e-4aaea6691a00")
-		)
-		(pin "6"
-			(uuid "dd3b95d1-016e-4aa5-9710-6d9a694270f5")
-		)
-		(pin "7"
-			(uuid "c20a1b43-1655-4a9d-b592-2872e7594d0c")
-		)
-		(pin "8"
-			(uuid "36c730e8-40c3-4253-b566-039a14c1eac5")
+			(uuid "1689d5f9-07ad-4a3b-9ce9-2699345fa488")
 		)
 		(instances
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "U5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -28814,7 +29154,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nf"
 			(at 577.85 72.39 0)
 			(effects
 				(font
@@ -28893,7 +29233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nf"
 			(at 468.63 181.61 0)
 			(effects
 				(font
@@ -28902,7 +29242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 468.3252 182.88 0)
 			(effects
 				(font
@@ -29312,7 +29652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nf"
 			(at 477.52 181.61 0)
 			(effects
 				(font
@@ -29321,7 +29661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 477.2152 182.88 0)
 			(effects
 				(font
@@ -29462,7 +29802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 425.45 89.408 90)
 			(effects
 				(font
@@ -30240,7 +30580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nf"
 			(at 433.07 181.61 0)
 			(effects
 				(font
@@ -30249,7 +30589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 432.7652 182.88 0)
 			(effects
 				(font
@@ -30790,7 +31130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ"
+		(property "Value" "1u"
 			(at 494.03 38.1 0)
 			(effects
 				(font
@@ -30799,7 +31139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 495.3 38.4048 0)
 			(effects
 				(font
@@ -30933,7 +31273,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nf"
 			(at 151.13 50.8 0)
 			(effects
 				(font
@@ -31502,7 +31842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "ct-kicad:SOT-666-6_L1.6-W1.2-P0.50-LS1.6-BL"
 			(at 405.13 379.73 0)
 			(effects
 				(font
@@ -31511,7 +31851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108132230_TECH-PUBLIC-USBLC6-2P6_C2827693.pdf"
 			(at 426.72 384.81 0)
 			(effects
 				(font
@@ -31520,7 +31860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD Protection"
+		(property "Description" "C2827693"
 			(at 417.83 379.73 0)
 			(effects
 				(font
@@ -32017,25 +32357,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52970fbf-e889-4144-9ef2-00f91f1111d1")
 		(property "Reference" "R14"
-			(at 281.94 278.13 0)
+			(at 282.194 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 281.94 280.67 0)
+		(property "Value" "5.1k"
+			(at 282.194 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ct-kicad:R1206"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 281.94 294.64 0)
 			(effects
 				(font
@@ -32045,7 +32384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/311874.html"
+		(property "Datasheet" ""
 			(at 279.654 284.353 0)
 			(effects
 				(font
@@ -32064,7 +32403,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17902"
+		(property "LCSC" "C25905"
 			(at 281.94 284.48 0)
 			(effects
 				(font
@@ -32083,74 +32422,6 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 290.83 275.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52e8997e-42dc-4fb4-8f62-b8df4782c0c1")
-		(property "Reference" "#PWR089"
-			(at 287.02 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 294.64 275.5899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 290.83 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87428edf-a8c5-484e-8842-a64e773ab1b0")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -32449,10 +32720,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "59fa50f8-061a-4ff1-b20c-fae59941135f")
 		(property "Reference" "R15"
-			(at 118.11 194.31 90)
+			(at 113.03 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32460,8 +32730,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206W4F1002T5E"
-			(at 118.11 196.85 90)
+		(property "Value" "10k"
+			(at 115.57 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32469,7 +32739,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ct-kicad:R1206"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 125.73 195.58 0)
 			(effects
 				(font
@@ -32498,7 +32768,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17902"
+		(property "LCSC" "C25744"
 			(at 115.57 195.58 0)
 			(effects
 				(font
@@ -32924,6 +33194,70 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "T3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 40.64 408.94 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f746b1f-5b3e-4247-97ce-39e8a90343c0")
+		(property "Reference" "FID3"
+			(at 43.18 407.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 43.18 410.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 40.64 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 40.64 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -33599,87 +33933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ct-kicad:CL31B105KBHNNNE")
-		(at 223.52 406.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dce6e02-dda0-4ab1-a73c-efec4e8e0003")
-		(property "Reference" "C20"
-			(at 227.33 405.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CL31B105KBHNNNE"
-			(at 227.33 407.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ct-kicad:C1206"
-			(at 213.36 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/89171.html"
-			(at 223.647 404.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1848"
-			(at 223.52 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a91d5836-5a02-445a-bc4b-0b31f2ad9857")
-		)
-		(pin "1"
-			(uuid "ecaace62-c7c1-4da3-b12e-024617f10d6e")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 365.76 57.15 0)
 		(unit 1)
@@ -33706,7 +33959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "ct-kicad:C0805"
 			(at 366.7252 60.96 0)
 			(effects
 				(font
@@ -33724,7 +33977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C440198"
 			(at 365.76 57.15 0)
 			(effects
 				(font
@@ -33833,7 +34086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ"
+		(property "Value" "1u"
 			(at 455.93 33.02 0)
 			(effects
 				(font
@@ -33842,7 +34095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 457.2 33.3248 0)
 			(effects
 				(font
@@ -33918,7 +34171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 425.45 91.948 90)
 			(effects
 				(font
@@ -34183,6 +34436,72 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 290.83 284.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7149708c-274b-4899-87f5-18833acc76a7")
+		(property "Reference" "#PWR072"
+			(at 287.02 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 294.64 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 290.83 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fec14b6-26da-436d-86c5-2533dcf656c8")
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -34495,7 +34814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 408.94 136.398 90)
 			(effects
 				(font
@@ -34847,7 +35166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 351.79 42.672 90)
 			(effects
 				(font
@@ -34964,11 +35283,108 @@
 		)
 	)
 	(symbol
+		(lib_id "ct-kicad:W25Q128JVSIQTR")
+		(at 350.52 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81cb882e-7ba0-4692-a2a3-874881bdf252")
+		(property "Reference" "U16"
+			(at 350.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W25Q128JVSIQTR"
+			(at 350.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ct-kicad:SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL"
+			(at 350.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/63461.html"
+			(at 348.234 154.813 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 350.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C97521"
+			(at 350.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "456b1b80-65d6-4df1-bae5-38b4cd7c4818")
+		)
+		(pin "5"
+			(uuid "7d7b32ee-5f0e-49b0-a584-3cd7cf231c52")
+		)
+		(pin "3"
+			(uuid "8d20d1ca-75d6-45f8-a0ba-c11754d932b4")
+		)
+		(pin "4"
+			(uuid "f19857e1-354a-4943-80c1-5e0a3ee698f7")
+		)
+		(pin "8"
+			(uuid "1b34e7b8-df32-4d44-a4e9-98f42d3e702a")
+		)
+		(pin "2"
+			(uuid "c99c1aa9-c970-4ffa-b0ac-945558ef801e")
+		)
+		(pin "6"
+			(uuid "c454c769-1bac-43d6-ba9e-46d37ed3b9b0")
+		)
+		(pin "7"
+			(uuid "de077385-712a-4a27-8364-0703e6a49de5")
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
 		(at 217.17 273.05 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -35264,7 +35680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 417.5252 111.76 0)
 			(effects
 				(font
@@ -35340,7 +35756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 567.69 35.052 90)
 			(effects
 				(font
@@ -35698,25 +36114,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e421462-9dda-4e50-a2e0-6225f4410062")
 		(property "Reference" "R13"
-			(at 281.94 269.24 0)
+			(at 281.94 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 281.94 271.78 0)
+		(property "Value" "5.1k"
+			(at 281.94 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ct-kicad:R1206"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 281.94 285.75 0)
 			(effects
 				(font
@@ -35726,7 +36141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/311874.html"
+		(property "Datasheet" ""
 			(at 279.654 275.463 0)
 			(effects
 				(font
@@ -35745,7 +36160,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17902"
+		(property "LCSC" "C25905"
 			(at 281.94 275.59 0)
 			(effects
 				(font
@@ -36105,87 +36520,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ct-kicad:CL31B105KBHNNNE")
-		(at 262.89 406.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9226493e-6c27-4840-9279-d9dc509ef3c0")
-		(property "Reference" "C21"
-			(at 266.7 405.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CL31B105KBHNNNE"
-			(at 266.7 407.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ct-kicad:C1206"
-			(at 252.73 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/89171.html"
-			(at 263.017 404.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1848"
-			(at 262.89 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5478ba7-7cd9-4adb-a37b-74635a854c74")
-		)
-		(pin "1"
-			(uuid "c91ab158-fcc7-485f-a68d-72f58b191da1")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 52.07 180)
 		(unit 1)
@@ -36270,7 +36604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL31B105KBHNNNE"
+		(property "Value" "1u"
 			(at 529.59 251.46 90)
 			(effects
 				(font
@@ -36279,7 +36613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ct-kicad:C1206"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 515.62 250.19 0)
 			(effects
 				(font
@@ -36308,7 +36642,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1848"
+		(property "LCSC" "C52923"
 			(at 525.78 250.19 0)
 			(effects
 				(font
@@ -36438,7 +36772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "ct-kicad:C0805"
 			(at 392.1252 60.96 0)
 			(effects
 				(font
@@ -36456,7 +36790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C440198"
 			(at 391.16 57.15 0)
 			(effects
 				(font
@@ -36827,7 +37161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nf"
 			(at 421.64 181.61 0)
 			(effects
 				(font
@@ -36836,7 +37170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 421.3352 182.88 0)
 			(effects
 				(font
@@ -37512,7 +37846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL31B105KBHNNNE"
+		(property "Value" "1u"
 			(at 579.12 251.46 90)
 			(effects
 				(font
@@ -37521,7 +37855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ct-kicad:C1206"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 565.15 250.19 0)
 			(effects
 				(font
@@ -37550,7 +37884,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1848"
+		(property "LCSC" "C52923"
 			(at 575.31 250.19 0)
 			(effects
 				(font
@@ -37811,7 +38145,7 @@
 		(at 405.13 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -38053,7 +38387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 567.69 50.292 90)
 			(effects
 				(font
@@ -38129,7 +38463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 347.98 182.372 90)
 			(effects
 				(font
@@ -38205,7 +38539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 398.78 231.648 90)
 			(effects
 				(font
@@ -38538,7 +38872,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nf"
 			(at 412.75 181.61 0)
 			(effects
 				(font
@@ -38547,7 +38881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 412.4452 182.88 0)
 			(effects
 				(font
@@ -38738,7 +39072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "ct-kicad:SOT-666-6_L1.6-W1.2-P0.50-LS1.6-BL"
 			(at 406.4 250.19 0)
 			(effects
 				(font
@@ -38747,7 +39081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108132230_TECH-PUBLIC-USBLC6-2P6_C2827693.pdf"
 			(at 427.99 255.27 0)
 			(effects
 				(font
@@ -38756,7 +39090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD Protection"
+		(property "Description" "C2827693"
 			(at 419.1 250.19 0)
 			(effects
 				(font
@@ -38810,7 +39144,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ"
+		(property "Value" "1u"
 			(at 365.76 139.7 0)
 			(effects
 				(font
@@ -38819,7 +39153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 367.03 140.0048 0)
 			(effects
 				(font
@@ -39166,7 +39500,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nf"
 			(at 250.19 110.49 0)
 			(effects
 				(font
@@ -39254,7 +39588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 403.5552 111.76 0)
 			(effects
 				(font
@@ -39670,7 +40004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nf"
 			(at 450.85 181.61 0)
 			(effects
 				(font
@@ -39679,7 +40013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 450.5452 182.88 0)
 			(effects
 				(font
@@ -39949,7 +40283,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nf"
 			(at 196.85 50.8 0)
 			(effects
 				(font
@@ -40130,6 +40464,134 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "LED-LVL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 40.64 402.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf5f7552-4fa2-4fff-8764-cf8365348803")
+		(property "Reference" "FID1"
+			(at 43.18 401.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 43.18 403.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 40.64 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 40.64 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 58.42 402.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfa455bd-c3b3-4a07-981c-9bc28ddf0e7f")
+		(property "Reference" "FID2"
+			(at 60.96 401.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 60.96 403.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 58.42 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 58.42 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -40668,87 +41130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ct-kicad:CL31B105KBHNNNE")
-		(at 243.84 431.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7fa9881-ebb9-4d66-bf56-07cd910190ff")
-		(property "Reference" "C22"
-			(at 247.65 430.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CL31B105KBHNNNE"
-			(at 247.65 433.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ct-kicad:C1206"
-			(at 233.68 431.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/89171.html"
-			(at 243.967 429.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 431.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1848"
-			(at 243.84 431.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e806cef-39a6-4d28-a200-b4c1489d84bc")
-		)
-		(pin "1"
-			(uuid "29cd2dea-6f70-4d3a-bd53-3c38330c2b81")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ct-kicad:74HC595D,118")
 		(at 151.13 69.85 0)
 		(unit 1)
@@ -40869,6 +41250,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 262.89 406.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d95781e9-dd57-458f-ac5e-1ec062f807ec")
+		(property "Reference" "C28"
+			(at 265.811 405.2316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 265.811 407.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ct-kicad:C0805"
+			(at 263.8552 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C440198"
+			(at 262.89 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eb833be-4f49-4a0e-9b41-81ec82e9e2c2")
+		)
+		(pin "2"
+			(uuid "83d39bf8-bc43-40f4-ba38-05935f860c85")
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
 		(at 44.45 123.19 180)
 		(unit 1)
@@ -40982,7 +41432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "ct-kicad:SOT-666-6_L1.6-W1.2-P0.50-LS1.6-BL"
 			(at 405.13 314.96 0)
 			(effects
 				(font
@@ -40991,7 +41441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108132230_TECH-PUBLIC-USBLC6-2P6_C2827693.pdf"
 			(at 426.72 320.04 0)
 			(effects
 				(font
@@ -41000,7 +41450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD Protection"
+		(property "Description" "C2827693"
 			(at 417.83 314.96 0)
 			(effects
 				(font
@@ -41604,7 +42054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 338.328 148.59 90)
 			(effects
 				(font
@@ -41741,7 +42191,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nf"
 			(at 556.26 72.39 0)
 			(effects
 				(font
@@ -42343,7 +42793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 532.13 66.548 90)
 			(effects
 				(font
@@ -42649,7 +43099,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nf"
 			(at 441.96 181.61 0)
 			(effects
 				(font
@@ -42658,7 +43108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ct-kicad:C0402"
 			(at 441.6552 182.88 0)
 			(effects
 				(font
@@ -42941,7 +43391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ct-kicad:R0402"
 			(at 532.13 68.072 90)
 			(effects
 				(font
