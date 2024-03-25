@@ -27374,7 +27374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 60.96 415.29 0)
 			(effects
 				(font
@@ -27504,7 +27504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "ct-kicad:hole-tooling-2mm"
 			(at 43.18 421.64 0)
 			(effects
 				(font
@@ -33067,7 +33067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "ct-kicad:hole-tooling-2mm"
 			(at 43.18 427.99 0)
 			(effects
 				(font
@@ -33196,7 +33196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 43.18 415.29 0)
 			(effects
 				(font
@@ -36843,7 +36843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "ct-kicad:hole-tooling-2mm"
 			(at 60.96 427.99 0)
 			(effects
 				(font
@@ -40302,7 +40302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "ct-kicad:hole-tooling-2mm"
 			(at 60.96 421.64 0)
 			(effects
 				(font
@@ -40706,7 +40706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 43.18 408.94 0)
 			(effects
 				(font
@@ -40770,7 +40770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 60.96 408.94 0)
 			(effects
 				(font
