@@ -20038,6 +20038,26 @@
 		)
 		(uuid "cd674c06-2589-4b8d-9714-34efcc2fc408")
 	)
+	(text_box "For edge rails, as per JLC."
+		(exclude_from_sim no)
+		(at 39.37 401.32 0)
+		(size 34.29 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d3d2b7e0-52a0-4179-92a1-cdf1d7467f04")
+	)
 	(text_box "Test pins."
 		(exclude_from_sim no)
 		(at 261.62 335.28 0)
@@ -20157,26 +20177,6 @@
 			(justify left top)
 		)
 		(uuid "f9aeee06-e0b6-4fbe-acd6-557f47f9df14")
-	)
-	(text_box "For edge rails, as per JLC."
-		(exclude_from_sim no)
-		(at 38.1 416.56 0)
-		(size 34.29 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "f9ea9014-1969-4097-8d7a-c134f8031484")
 	)
 	(text_box "Note there is a 256-led maximum (total of both sides) due to QMK's rgb implementation.\nLarge amount of code work to fix this.  (thus the vanity led controller)"
 		(exclude_from_sim no)
@@ -20737,9 +20737,9 @@
 		)
 		(uuid "96c79946-3f89-451a-80e5-811c13fb02a3")
 	)
-	(text "Fiducials"
+	(text "Fiducials and \ntooling holes"
 		(exclude_from_sim no)
-		(at 44.45 398.78 0)
+		(at 43.942 401.066 0)
 		(effects
 			(font
 				(face "Futura")
@@ -27349,7 +27349,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 58.42 408.94 0)
+		(at 60.96 415.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -27358,7 +27358,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fb7de29-b325-4c5c-9d7f-598315300e18")
 		(property "Reference" "FID4"
-			(at 60.96 407.6699 0)
+			(at 63.5 414.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27367,7 +27367,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 60.96 410.2099 0)
+			(at 63.5 416.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27376,7 +27376,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 58.42 408.94 0)
+			(at 60.96 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27385,7 +27385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 408.94 0)
+			(at 60.96 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27394,7 +27394,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 58.42 408.94 0)
+			(at 60.96 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27472,6 +27472,70 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 421.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "116e8c7e-3d54-46a1-bc6b-2a6fab370963")
+		(property "Reference" "H5"
+			(at 45.72 420.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 43.18 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -32977,6 +33041,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 427.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e954c1b-fccb-4bab-8949-e1e3145aeeef")
+		(property "Reference" "H7"
+			(at 45.72 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 43.18 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 153.67 339.09 180)
 		(unit 1)
@@ -33043,7 +33171,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 40.64 408.94 0)
+		(at 43.18 415.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -33052,7 +33180,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f746b1f-5b3e-4247-97ce-39e8a90343c0")
 		(property "Reference" "FID3"
-			(at 43.18 407.6699 0)
+			(at 45.72 414.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33061,7 +33189,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 43.18 410.2099 0)
+			(at 45.72 416.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33070,7 +33198,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 40.64 408.94 0)
+			(at 43.18 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33079,7 +33207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 408.94 0)
+			(at 43.18 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33088,7 +33216,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 40.64 408.94 0)
+			(at 43.18 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36689,6 +36817,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 60.96 427.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9613f3ca-fcee-4f8a-a69f-6260d8168792")
+		(property "Reference" "H8"
+			(at 63.5 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 63.5 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 60.96 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ct-kicad:cyboard-logo-10mm")
 		(at 59.69 377.19 0)
 		(unit 1)
@@ -40084,6 +40276,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 60.96 421.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca8319eb-1ae3-4a67-bef5-9c8086e841f6")
+		(property "Reference" "H6"
+			(at 63.5 420.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 63.5 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 60.96 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 410.21 114.3 0)
 		(unit 1)
@@ -40425,7 +40681,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 40.64 402.59 0)
+		(at 43.18 408.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -40434,7 +40690,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf5f7552-4fa2-4fff-8764-cf8365348803")
 		(property "Reference" "FID1"
-			(at 43.18 401.3199 0)
+			(at 45.72 407.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40443,7 +40699,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 43.18 403.8599 0)
+			(at 45.72 410.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40452,7 +40708,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 40.64 402.59 0)
+			(at 43.18 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40461,7 +40717,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 402.59 0)
+			(at 43.18 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40470,7 +40726,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 40.64 402.59 0)
+			(at 43.18 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40489,7 +40745,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 58.42 402.59 0)
+		(at 60.96 408.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -40498,7 +40754,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfa455bd-c3b3-4a07-981c-9bc28ddf0e7f")
 		(property "Reference" "FID2"
-			(at 60.96 401.3199 0)
+			(at 63.5 407.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40507,7 +40763,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 60.96 403.8599 0)
+			(at 63.5 410.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40516,7 +40772,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 58.42 402.59 0)
+			(at 60.96 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40525,7 +40781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 402.59 0)
+			(at 60.96 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40534,7 +40790,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 58.42 402.59 0)
+			(at 60.96 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
