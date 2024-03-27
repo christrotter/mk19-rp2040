@@ -8590,7 +8590,7 @@
 				)
 			)
 		)
-		(symbol "ct-kicad:mk19-qr-12mm"
+		(symbol "ct-kicad:mk19-rp2040-qr-10mm"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -8600,6 +8600,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "**REF"
@@ -8608,9 +8609,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "ct-kicad:mk19-qr-logo-12mm"
+			(property "Footprint" "ct-kicad:qr-mk19-rp2040-10mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8637,7 +8639,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "mk19-qr-12mm_0_1"
+			(symbol "mk19-rp2040-qr-10mm_0_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -1.27)
@@ -26070,7 +26072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 354.33 189.23 0)
 			(effects
 				(font
@@ -28762,70 +28764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ct-kicad:mk19-qr-12mm")
-		(at 48.26 377.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27d428e3-6a79-47fa-adcf-c0e487756f67")
-		(property "Reference" "LOGO3"
-			(at 50.8 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "**REF"
-			(at 50.8 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ct-kicad:mk19-qr-logo-12mm"
-			(at 48.26 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "LOGO3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
 		(at 152.4 408.94 0)
 		(unit 1)
@@ -28990,7 +28928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 229.87 429.26 0)
 			(effects
 				(font
@@ -30775,7 +30713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 410.21 123.19 0)
 			(effects
 				(font
@@ -31530,7 +31468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 134.62 411.48 0)
 			(effects
 				(font
@@ -36280,7 +36218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 209.55 403.86 0)
 			(effects
 				(font
@@ -38312,7 +38250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 405.13 147.32 0)
 			(effects
 				(font
@@ -41339,6 +41277,70 @@
 		)
 	)
 	(symbol
+		(lib_id "ct-kicad:mk19-rp2040-qr-10mm")
+		(at 48.26 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d87e2701-345e-4399-baf8-10e874b60b58")
+		(property "Reference" "LOGO8"
+			(at 48.26 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "**REF"
+			(at 48.26 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ct-kicad:qr-mk19-rp2040-10mm"
+			(at 48.26 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "qr code for repo"
+			(at 48.26 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "LOGO8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ct-kicad:74HC595D,118")
 		(at 151.13 69.85 0)
 		(unit 1)
@@ -42268,7 +42270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 248.92 403.86 0)
 			(effects
 				(font
