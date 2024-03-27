@@ -7158,161 +7158,6 @@
 				)
 			)
 		)
-		(symbol "ct-kicad:GRM21BR61H106KE43L"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM21BR61H106KE43L"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprint:C0805"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/373011.html"
-				(at -2.286 0.127 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C440198"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C440198"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM21BR61H106KE43L_0_1"
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "ct-kicad:MC74HC589ADR2G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10681,12 +10526,6 @@
 		(uuid "2cd8eb74-ab3b-4f8a-af05-e588dbd80e6b")
 	)
 	(junction
-		(at 243.84 426.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2df9c8ad-b9f2-4696-9d97-7c655c09b54c")
-	)
-	(junction
 		(at 228.6 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10807,12 +10646,6 @@
 		(uuid "528de4f7-5457-45a8-b669-f55935364b7b")
 	)
 	(junction
-		(at 262.89 401.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52b3b217-ddbd-4a08-876e-890421048f6a")
-	)
-	(junction
 		(at 166.37 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10861,22 +10694,10 @@
 		(uuid "6095d4ec-e709-48a4-914f-8078c58dea5f")
 	)
 	(junction
-		(at 223.52 401.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60f771eb-da2e-4ca1-a4af-6def927b946d")
-	)
-	(junction
 		(at 214.63 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "611e2493-8ffd-4ed1-90cf-43a664b50373")
-	)
-	(junction
-		(at 223.52 411.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "612a1a92-8ce1-49ac-b088-92b61cef2cd9")
 	)
 	(junction
 		(at 214.63 134.62)
@@ -11029,12 +10850,6 @@
 		(uuid "82e5672a-90fb-45ce-a357-a9c951a1f7d2")
 	)
 	(junction
-		(at 243.84 436.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83e72672-3e59-473f-a1bb-2c4935b08f69")
-	)
-	(junction
 		(at 259.08 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11165,12 +10980,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9438100-f188-442e-b9b7-9c146aaf3d52")
-	)
-	(junction
-		(at 262.89 411.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a96fa267-1a4a-48c0-b915-9e85abe77619")
 	)
 	(junction
 		(at 384.81 358.14)
@@ -11583,16 +11392,6 @@
 			(type default)
 		)
 		(uuid "04765395-9f40-483d-8a7a-dcf6634738d8")
-	)
-	(wire
-		(pts
-			(xy 243.84 436.88) (xy 251.46 436.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04ba6962-709c-44f6-95e6-2374850bc177")
 	)
 	(wire
 		(pts
@@ -12593,16 +12392,6 @@
 			(type default)
 		)
 		(uuid "27e7e909-e952-419d-8e67-8b1f32783ca9")
-	)
-	(wire
-		(pts
-			(xy 217.17 411.48) (xy 223.52 411.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "284722e0-ef98-4eb2-8155-46aca84e5f9f")
 	)
 	(wire
 		(pts
@@ -14206,7 +13995,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 436.88) (xy 243.84 436.88)
+			(xy 237.49 436.88) (xy 251.46 436.88)
 		)
 		(stroke
 			(width 0)
@@ -15036,7 +14825,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 411.48) (xy 270.51 411.48)
+			(xy 256.54 411.48) (xy 270.51 411.48)
 		)
 		(stroke
 			(width 0)
@@ -15836,7 +15625,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 411.48) (xy 231.14 411.48)
+			(xy 217.17 411.48) (xy 231.14 411.48)
 		)
 		(stroke
 			(width 0)
@@ -18553,16 +18342,6 @@
 			(type default)
 		)
 		(uuid "f73cedcc-80a4-4570-a49e-d5c0f9e858fa")
-	)
-	(wire
-		(pts
-			(xy 256.54 411.48) (xy 262.89 411.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7661d5a-3325-4c00-8c2c-52eeb02a3867")
 	)
 	(wire
 		(pts
@@ -32572,87 +32351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ct-kicad:GRM21BR61H106KE43L")
-		(at 223.52 406.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a5b18cd-aebd-4272-83fc-4f365672a88f")
-		(property "Reference" "C2"
-			(at 227.33 405.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 227.33 407.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ct-kicad:C0805"
-			(at 233.68 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/373011.html"
-			(at 223.393 408.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 223.52 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "212cac12-35d1-4010-b7f0-32ebe6967570")
-		)
-		(pin "1"
-			(uuid "01d1fbbe-e314-48a0-9885-644f528039c4")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 342.9 44.45 180)
 		(unit 1)
@@ -32791,87 +32489,6 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ct-kicad:GRM21BR61H106KE43L")
-		(at 262.89 406.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5da17424-2335-4236-8d94-ba98a7cff903")
-		(property "Reference" "C28"
-			(at 266.7 405.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 266.7 407.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ct-kicad:C0805"
-			(at 273.05 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/373011.html"
-			(at 262.763 408.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 262.89 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b40d62d-3d43-4436-855e-d40bc2bcf636")
-		)
-		(pin "1"
-			(uuid "4b6d0834-f7ea-4177-a072-f13469c0ad3d")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -39296,87 +38913,6 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ct-kicad:GRM21BR61H106KE43L")
-		(at 243.84 431.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bac8443d-4a98-4861-87a7-650175f1f09f")
-		(property "Reference" "C29"
-			(at 247.65 430.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 247.65 433.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ct-kicad:C0805"
-			(at 254 431.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/373011.html"
-			(at 243.713 434.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 431.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 243.84 431.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a10adc7-659c-49bf-91d8-c72ca9ad0344")
-		)
-		(pin "1"
-			(uuid "34eaf382-d940-46dc-a169-41a6b7c19720")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C29")
 					(unit 1)
 				)
 			)
