@@ -2350,152 +2350,6 @@
 				)
 			)
 		)
-		(symbol "Device:Polyfuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Polyfuse_0_1"
-				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -7549,6 +7403,136 @@
 				)
 			)
 		)
+		(symbol "ct-kicad:RF1989-000"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RF1989-000"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:F1206"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200518/C553934_4CFF0660EAE88BF7A646763F248900C5.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C207216"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C207216"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RF1989-000_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ct-kicad:TYPE-C-31-M-14"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10904,6 +10888,12 @@
 		(uuid "89c9aee4-03fc-4f9b-9964-6b51d0fc2a3c")
 	)
 	(junction
+		(at 152.4 414.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8af6787a-38c1-4d85-a792-4d882af9ce6a")
+	)
+	(junction
 		(at 168.91 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11511,16 +11501,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 62.23) (xy 340.36 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08003530-57ab-4ece-8fd4-e1755c3a334f")
-	)
-	(wire
-		(pts
 			(xy 571.5 52.07) (xy 574.04 52.07)
 		)
 		(stroke
@@ -11828,6 +11808,16 @@
 			(type default)
 		)
 		(uuid "1171e4d0-9b18-45fd-964a-1e8156cf8919")
+	)
+	(wire
+		(pts
+			(xy 152.4 414.02) (xy 152.4 425.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1198f358-c030-4f91-9314-165ca2c7528d")
 	)
 	(wire
 		(pts
@@ -12178,16 +12168,6 @@
 			(type default)
 		)
 		(uuid "2097d5b8-6695-4dac-92a6-23bcb6a3c64a")
-	)
-	(wire
-		(pts
-			(xy 173.99 419.1) (xy 175.26 419.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20f7e6dd-a21e-46ae-8539-73442eee151a")
 	)
 	(wire
 		(pts
@@ -13221,7 +13201,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 412.75) (xy 152.4 425.45)
+			(xy 152.4 412.75) (xy 152.4 414.02)
 		)
 		(stroke
 			(width 0)
@@ -13731,7 +13711,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 375.92) (xy 175.26 375.92)
+			(xy 171.45 375.92) (xy 189.23 375.92)
 		)
 		(stroke
 			(width 0)
@@ -13768,6 +13748,16 @@
 			(type default)
 		)
 		(uuid "53ad4ce9-9c6a-456c-b6ae-29c21cf6fcb1")
+	)
+	(wire
+		(pts
+			(xy 189.23 375.92) (xy 189.23 414.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540cdb17-9ca5-4242-a6e3-d61e5cd90217")
 	)
 	(wire
 		(pts
@@ -14828,6 +14818,16 @@
 			(type default)
 		)
 		(uuid "7fefdd59-2f10-46a2-adbe-be4e69a24533")
+	)
+	(wire
+		(pts
+			(xy 173.99 419.1) (xy 175.26 419.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803af6e8-da1b-49b8-9d84-feb5a192ec66")
 	)
 	(wire
 		(pts
@@ -16131,7 +16131,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 419.1) (xy 166.37 419.1)
+			(xy 160.02 419.1) (xy 163.83 419.1)
 		)
 		(stroke
 			(width 0)
@@ -16218,6 +16218,16 @@
 			(type default)
 		)
 		(uuid "b0f0c820-63a0-4d98-a7df-caeb4e389159")
+	)
+	(wire
+		(pts
+			(xy 327.66 62.23) (xy 328.93 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1eac87f-ba55-45a9-b916-1d8ddb0e96e5")
 	)
 	(wire
 		(pts
@@ -16821,6 +16831,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 62.23) (xy 340.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7007068-ee11-42ac-ae67-a9e499bd8809")
+	)
+	(wire
+		(pts
 			(xy 487.68 110.49) (xy 504.19 110.49)
 		)
 		(stroke
@@ -17168,6 +17188,16 @@
 			(type default)
 		)
 		(uuid "d0e7044a-bec1-4e8f-b6ff-d3d1ee0ebba8")
+	)
+	(wire
+		(pts
+			(xy 189.23 414.02) (xy 152.4 414.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0edc7b1-9b81-4682-8c14-c2740b684c5a")
 	)
 	(wire
 		(pts
@@ -18218,16 +18248,6 @@
 			(type default)
 		)
 		(uuid "f9513b13-91c7-498c-ba26-92ea6a2d6a1c")
-	)
-	(wire
-		(pts
-			(xy 327.66 62.23) (xy 331.47 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f985ff14-7859-40fd-a11e-55d16863a549")
 	)
 	(wire
 		(pts
@@ -28193,83 +28213,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 335.28 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "222cc908-86de-4638-b082-21d5bc4d7da5")
-		(property "Reference" "F1"
-			(at 335.28 57.785 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 335.28 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 340.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 335.28 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 335.28 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C69679"
-			(at 335.28 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "587d5e41-222a-449b-8dd5-0cf68d49b854")
-		)
-		(pin "2"
-			(uuid "595d534d-98bd-46bf-a4ff-fde5855fadbe")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 368.3 322.58 270)
 		(unit 1)
@@ -28343,6 +28286,84 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ct-kicad:RF1989-000")
+		(at 334.01 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "295d50b5-1843-4846-8354-f5385b7e6d68")
+		(property "Reference" "F1"
+			(at 338.455 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 336.55 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ct-kicad:F1206"
+			(at 334.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200518/C553934_4CFF0660EAE88BF7A646763F248900C5.pdf"
+			(at 331.724 62.103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2892425"
+			(at 334.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da7eac9d-eae8-48c8-ae91-964131434936")
+		)
+		(pin "2"
+			(uuid "d0cfa523-fd88-4a02-aab2-1ea073193dd4")
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -34419,8 +34440,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 170.18 419.1 90)
+		(lib_id "ct-kicad:RF1989-000")
+		(at 168.91 419.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34428,7 +34449,7 @@
 		(dnp no)
 		(uuid "7e6423a9-40c5-4868-9948-08d31d99dbac")
 		(property "Reference" "F2"
-			(at 170.18 414.655 90)
+			(at 173.355 419.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34436,15 +34457,25 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 170.18 416.56 90)
+			(at 171.45 419.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 175.26 417.83 0)
+		(property "Footprint" "ct-kicad:F1206"
+			(at 168.91 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200518/C553934_4CFF0660EAE88BF7A646763F248900C5.pdf"
+			(at 166.624 418.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34453,17 +34484,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 170.18 419.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Description" ""
-			(at 170.18 419.1 0)
+			(at 168.91 419.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34471,8 +34493,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C69679"
-			(at 170.18 419.1 0)
+		(property "LCSC" "C2892425"
+			(at 168.91 419.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38963,74 +38985,6 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 175.26 375.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be49e512-41d7-4eda-b28f-7240f751b03b")
-		(property "Reference" "#PWR036"
-			(at 171.45 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 179.07 375.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 175.26 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "409b98f7-82be-4b40-85ba-97dcc3fc15fe")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
