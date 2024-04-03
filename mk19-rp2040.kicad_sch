@@ -19596,6 +19596,26 @@
 		)
 		(uuid "81552b38-802c-42f7-aef8-b078d7ed5969")
 	)
+	(text_box "Ummm why not use a 6-pin plug here..."
+		(exclude_from_sim no)
+		(at 157.48 379.73 0)
+		(size 29.21 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8773b54d-8640-4961-afbf-264f31b5735f")
+	)
 	(text_box "74HC595 notes\n- When we spi_start(ROW_CS), ROW_CS goes LOW - StorageClock is primed\n- spi_transmit(message) - data is staged!\n- spi_stop(ROW_CS), ROW_CS goes HIGH - StorageClock rises, triggering Latch\n- on Latch, the data is moved to prod! and pins go live with your bits."
 		(exclude_from_sim no)
 		(at 138.43 209.55 0)
@@ -21664,7 +21684,7 @@
 			)
 		)
 	)
-	(global_label "VANILED_SIG4"
+	(global_label "VANILED_SIG1"
 		(shape input)
 		(at 175.26 373.38 0)
 		(fields_autoplaced yes)
@@ -23116,7 +23136,7 @@
 			)
 		)
 	)
-	(global_label "VANILED_SIG3"
+	(global_label "VANILED_SIG2"
 		(shape input)
 		(at 175.26 370.84 0)
 		(fields_autoplaced yes)
@@ -23798,7 +23818,7 @@
 			)
 		)
 	)
-	(global_label "VANILED_SIG1"
+	(global_label "VANILED_SIG4"
 		(shape input)
 		(at 175.26 365.76 0)
 		(fields_autoplaced yes)
@@ -25228,7 +25248,7 @@
 			)
 		)
 	)
-	(global_label "VANILED_SIG2"
+	(global_label "VANILED_SIG3"
 		(shape input)
 		(at 175.26 368.3 0)
 		(fields_autoplaced yes)
@@ -29003,7 +29023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 229.87 429.26 0)
 			(effects
 				(font
@@ -36343,7 +36363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 209.55 403.86 0)
 			(effects
 				(font
@@ -38494,7 +38514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal"
 			(at 166.37 370.84 0)
 			(effects
 				(font
@@ -39785,7 +39805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 118.11 331.47 0)
 			(effects
 				(font
@@ -42305,7 +42325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 248.92 403.86 0)
 			(effects
 				(font
