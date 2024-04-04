@@ -540,7 +540,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "mk19-rp2040.step",
+      "step": "../../../Downloads/mk19-rp2040-rev3.step",
       "svg": "",
       "vrml": ""
     },
