@@ -1,10 +1,9 @@
 # mk19-rp2040
 Attempting to reduce soldering to a minimum - only need to solder the JST-XH headers.  This is the mainboard for the [ArcBoard-mk19](https://github.com/christrotter/qmk_firmware/tree/arcboard-series/keyboards/handwired/arcboard_mk19).
 
-<img src="images/pcb-assembled.jpg"  width="600"><img src="images/pcb-render.png"  width="600">
+<img src="images/mk19-rp2040-inator.jpg"  width="600">
 
-# Functional notes
-- The LED DI/DO chain flows from main keys (_Cyboard_) to the macropad, then to the dpad (_bodged in post-production_), then UF1, UF2, keybar, screen indicators.
+<img src="images/pcb-assembled.jpg"  width="600"><img src="images/pcb-render.png"  width="600">
 
 # Features
 - On-board RP2040 w. 16MB flash (_based on splinktegrated and reference design_)
@@ -24,6 +23,16 @@ Attempting to reduce soldering to a minimum - only need to solder the JST-XH hea
 - Split-handedness pin solder jumper
 - Optional SPI clock pull-down and SPI MISO pull-up resistors
 - Test points
+
+# Functional notes
+- The LED DI/DO chain flows from main keys (_Cyboard_) to the macropad, then to the dpad (_bodged in post-production_), then UF1, UF2, keybar, screen indicators.
+- ROW2COL
+- Power LED only indicates you have 5v to the board
+- Requires QMK's 'matrix lite' custom matrix feature
+  - For more info regarding the custom matrix and shift register implementation, see here: https://github.com/christrotter/shift-register-spi-breakout-pcb
+- With everything running it sits at around 1500 scan rate
+- First flashing requires holding boot while plugging in main USB; subsequent flashes can use double-press reset button or `QK_BOOT`
+
 
 # Production notes
 - Due to putting the v-cuts on the edge cuts layer, all pcb renders are broken.  This is a known bug in JLC's process.  The pre-production verifications render correctly.
