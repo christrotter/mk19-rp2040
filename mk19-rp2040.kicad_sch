@@ -10763,12 +10763,6 @@
 		(uuid "445fcb01-d952-4275-94ac-3c73b9444ab1")
 	)
 	(junction
-		(at 505.46 289.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44964ba5-51a3-41b0-b61d-d346b9cc9ed1")
-	)
-	(junction
 		(at 467.36 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11539,16 +11533,6 @@
 			(type default)
 		)
 		(uuid "03ebd240-e657-4578-abc8-408bf2ad93cc")
-	)
-	(wire
-		(pts
-			(xy 577.85 323.85) (xy 553.72 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04028489-032a-404a-be6b-5a955030d9df")
 	)
 	(wire
 		(pts
@@ -12762,16 +12746,6 @@
 	)
 	(wire
 		(pts
-			(xy 548.64 328.93) (xy 553.72 328.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f3ebdbd-4967-4397-8931-d14fd18098dc")
-	)
-	(wire
-		(pts
 			(xy 476.25 39.37) (xy 487.68 39.37)
 		)
 		(stroke
@@ -13459,16 +13433,6 @@
 			(type default)
 		)
 		(uuid "450306ba-3d70-4ed2-9998-b0e74b016ca0")
-	)
-	(wire
-		(pts
-			(xy 548.64 327.66) (xy 548.64 328.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450a8e32-def2-49e5-99d2-349abe9a565c")
 	)
 	(wire
 		(pts
@@ -14552,16 +14516,6 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 323.85) (xy 505.46 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6b534e-fda7-4819-83f3-db2ca340a6d3")
-	)
-	(wire
-		(pts
 			(xy 393.7 307.34) (xy 393.7 327.66)
 		)
 		(stroke
@@ -14579,16 +14533,6 @@
 			(type default)
 		)
 		(uuid "6b31466a-0791-40c3-b39f-34f59ac2abdb")
-	)
-	(wire
-		(pts
-			(xy 577.85 289.56) (xy 577.85 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b604760-b1ad-4a65-a3b6-7c36ec9f871c")
 	)
 	(wire
 		(pts
@@ -15999,16 +15943,6 @@
 			(type default)
 		)
 		(uuid "9f10adbc-1484-48ec-b176-4e1daedf203b")
-	)
-	(wire
-		(pts
-			(xy 505.46 289.56) (xy 515.62 289.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0579c20-fbed-4fde-bfa7-b6efb58d8eaa")
 	)
 	(wire
 		(pts
@@ -17822,16 +17756,6 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 323.85) (xy 505.46 289.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfdfa6f2-9197-4ed8-bd46-8da31ed601f5")
-	)
-	(wire
-		(pts
 			(xy 383.54 237.49) (xy 383.54 238.76)
 		)
 		(stroke
@@ -18612,7 +18536,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 289.56) (xy 505.46 289.56)
+			(xy 488.95 289.56) (xy 515.62 289.56)
 		)
 		(stroke
 			(width 0)
@@ -18946,7 +18870,7 @@
 	)
 	(rectangle
 		(start 485.14 269.24)
-		(end 599.44 332.74)
+		(end 599.44 316.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -19475,26 +19399,6 @@
 			(justify left top)
 		)
 		(uuid "6e1b9bb9-fdf3-4fcc-9705-f5a908de8d93")
-	)
-	(text_box "Bypass the serial power filtering.\n1->2 = bypass, send 5v directly onto USB cable\n3->2 = filter 5v power onto USB cable"
-		(exclude_from_sim no)
-		(at 511.81 312.42 0)
-		(size 40.64 8.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7093ef0d-105c-45f6-a34f-6a48f8486110")
 	)
 	(text_box "Future designs should move this to 0.5mm pitch."
 		(exclude_from_sim no)
@@ -20075,26 +19979,6 @@
 			(justify left top)
 		)
 		(uuid "e4a45296-285e-4f42-a3cb-0b8ffdb57c44")
-	)
-	(text_box "TODO\ncheck this against later versions"
-		(exclude_from_sim no)
-		(at 478.79 298.45 0)
-		(size 40.64 8.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e56fdc67-1e68-4205-a5bf-7209141eb3fd")
 	)
 	(text_box "Splinktegrated design.\nThese USB ports should hold up better."
 		(exclude_from_sim no)
@@ -26408,6 +26292,74 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 577.85 289.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0795cdf6-69f6-4d2a-9d64-f3f331d307aa")
+		(property "Reference" "#PWR034"
+			(at 574.04 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 581.66 289.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 577.85 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 577.85 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 577.85 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d5cb8fe-7264-4046-b9bf-f425ed3b7d1f")
+		)
+		(instances
+			(project "mk19-rp2040"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -43557,74 +43509,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 553.72 328.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f09eb5df-65b4-4935-a1fd-475181b9a963")
-		(property "Reference" "#PWR034"
-			(at 549.91 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 557.53 328.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 553.72 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 553.72 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 553.72 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06db6a7e-9084-4d35-903e-b84f508e77b0")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 440.69 179.07 0)
 		(unit 1)
@@ -43697,77 +43581,6 @@
 			(project "mk19-rp2040"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 548.64 323.85 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f428699e-830a-4ff2-b6dd-bde5cd791410")
-		(property "Reference" "JP2"
-			(at 548.64 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 548.64 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 548.64 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 548.64 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 548.64 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "03326fe9-162d-4d1c-a522-e17291cca182")
-		)
-		(pin "2"
-			(uuid "9874aa7c-c8a4-4de1-88e5-890b8e0cab37")
-		)
-		(pin "1"
-			(uuid "f6715eeb-8a48-4652-8c3e-5fa819f6e0a9")
-		)
-		(instances
-			(project "mk19-rp2040"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
